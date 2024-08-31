@@ -1,4 +1,10 @@
 body {
     background-color: gray;
     font-size: 130%;
+    text-align: center;
   }
+p {
+    background-color: yellow;
+    color: red;
+    font-size: 22px;
+}
