@@ -8,3 +8,9 @@ p {
     color: red;
     font-size: 22px;
 }
+ul, ol {
+  list-style-position: inside; /* 将项目符号放置在内容内 */
+  padding: 0; /* 清除内边距 */
+  display: inline-block; /* 使列表为内联块，以便与文本对齐 */
+  text-align: left; /* 左对齐文本内容 */
+}
