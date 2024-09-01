@@ -1,0 +1,56 @@
+body {
+    background-color: gray;
+    font-size: 130%;
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    /* 将导航菜单设置为 Flexbox */
+    justify-content: space-around;
+    /* 子元素均匀分布 */
+    align-items: center;
+    /* 垂直居中对齐子元素 */
+    width: 100%;
+    /* 确保导航栏占据整个宽度 */
+    margin-bottom: 20px;
+    /* 为导航栏和下面的内容添加间距 */
+    padding: 10px;
+    /* 添加内边距，增加导航栏的高度 */
+    background-color: #f0f0f0;
+    /* 可选：设置导航栏背景色 */
+  }
+  
+  p {
+    width: 32%;
+    border: 1px solid black;
+    margin: 2px;
+    float: left;
+    padding: 10px;
+  }
+  
+  #p1 {
+    background-color: #A52A2A;
+    clear: left; 
+  }
+  
+  #p2 {
+    background-color: #DEB887;
+   }
+  
+  #p3 {
+    background-color: #DE008a; 
+    }
+section {
+  top:40px;
+  height: 20px;
+  padding: 40px;
+  clear: left;
+}
+#foot1 {
+  width: 100px;
+  background-color: #1E208a;
+  color: #ffff00;
+  margin: 1px;
+  text-align: center;
+}
