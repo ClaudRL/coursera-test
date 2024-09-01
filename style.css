@@ -3,23 +3,25 @@ body {
   font-size: 130%;
   text-align: center;
 }
-
 .navbar {
-  display: flex;
-  /* 将导航菜单设置为 Flexbox */
-  justify-content: space-around;
-  /* 子元素均匀分布 */
+  display: flex; /* 将导航菜单设置为 Flexbox */
+  justify-content: space-around; /* 子元素均匀分布 */
+  align-items: center; /* 垂直居中对齐子元素 */
+  width: 100%; /* 确保导航栏占据整个宽度 */
+  margin-bottom: 20px; /* 为导航栏和下面的内容添加间距 */
+  padding: 10px; /* 添加内边距，增加导航栏的高度 */
+  background-color: #f0f0f0; /* 可选：设置导航栏背景色 */
 }
 
+/* 按钮组样式 */
 .button-group {
-  display: flex;
-  /* 将按钮组设置为 Flexbox */
-  gap: 10px;
-  /* 按钮之间的间距 */
-  justify-content: space-around;
-  /* 子元素均匀分布 */
+  display: flex; /* 将按钮组设置为 Flexbox */
+  gap: 10px; /* 按钮之间的间距 */
+  justify-content: space-around; /* 子元素均匀分布 */
+  width: 100%; /* 确保按钮组占据整个宽度 */
+  padding: 10px; /* 添加内边距，增加按钮组的高度 */
+  background-color: #e0e0e0; /* 可选：设置按钮组背景色 */
 }
-
 p {
   background-color: yellow;
   color: red;
@@ -33,23 +35,18 @@ ol {
   display: inline-block;
   text-align: left;
 }
-
 .container {
-  display: inline-flex;
-  /* 使用 Flexbox 布局 * inline-flex 并排相连/ 
+  display: inline-flex; /* 使用 Flexbox 布局 * inline-flex 并排相连/ 
   justify-content: center; /* 水平居中对齐 */
-  gap: 0px;
-  /* 添加间距，间隔20px */
+  gap: 0px; /* 添加间距，间隔20px */
 }
-
 #box {
   background-color: blue;
   padding: 10px 20px 30px 40px;
   border: 5px solid yellow;
   width: 500px;
   height: 120px;
-  margin: auto;
-  /* 水平居中 */
+  margin: auto; /* 水平居中 */
   overflow: auto;
   display: block;
 }
