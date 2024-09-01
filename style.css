@@ -10,11 +10,16 @@ p {
   font-size: 22px;
 }
 
-ul, ol {
-  list-style-position: inside; /* 将项目符号放置在内容内 */
-  padding: 0; /* 清除内边距 */
-  display: inline-block; /* 使列表为内联块，以便与文本对齐 */
-  text-align: left; /* 左对齐文本内容 */
+ul,
+ol {
+  list-style-position: inside;
+  /* 将项目符号放置在内容内 */
+  padding: 0;
+  /* 清除内边距 */
+  display: inline-block;
+  /* 使列表为内联块，以便与文本对齐 */
+  text-align: left;
+  /* 左对齐文本内容 */
 }
 
 #box {
@@ -23,9 +28,11 @@ ul, ol {
   border: 5px solid black;
   width: 500px;
   height: 100px;
-  margin: 50px auto; /* 将左右外边距设置为 auto，垂直外边距为50px */
+  margin: 50px auto;
+  /* 将左右外边距设置为 auto，垂直外边距为50px */
   overflow: auto;
-  display: block; /* 保持块级元素 */
+  display: block;
+  /* 保持块级元素 */
 }
 
 #content {
