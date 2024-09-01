@@ -1,56 +1,56 @@
 body {
-    background-color: gray;
-    font-size: 130%;
-    text-align: center;
-  }
-  
-  .navbar {
-    display: flex;
-    /* 将导航菜单设置为 Flexbox */
-    justify-content: space-around;
-    /* 子元素均匀分布 */
-    align-items: center;
-    /* 垂直居中对齐子元素 */
-    width: 100%;
-    /* 确保导航栏占据整个宽度 */
-    margin-bottom: 20px;
-    /* 为导航栏和下面的内容添加间距 */
-    padding: 10px;
-    /* 添加内边距，增加导航栏的高度 */
-    background-color: #f0f0f0;
-    /* 可选：设置导航栏背景色 */
-  }  
-  /* 父容器样式 */
-  .container {
-    width: 300px;
-    height: 200px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    position: relative; /* 设置相对定位，为子元素的绝对定位提供参考 */
-    margin: 20px;
-    padding: 10px;
-  }
-  
-  /* 相对定位元素 */
-  .relative-box {
-    position: relative; /* 相对定位 */
-    top: 20px; /* 相对于元素本身向下偏移 20px */
-    left: 20px; /* 相对于元素本身向右偏移 20px */
-    width: 100px;
-    height: 100px;
-    background-color: #a0d2eb;
-    border: 1px solid #0077aa;
-    padding: 10px;
-  }
-  
-  /* 绝对定位元素 */
-  .absolute-box {
-    position: absolute; /* 绝对定位 */
-    top: 40px; /* 相对于最近的已定位父元素（container）的顶部偏移 40px */
-    right: 20px; /* 相对于最近的已定位父元素的右边偏移 20px */
-    width: 80px;
-    height: 80px;
-    background-color: #f08080;
-    border: 1px solid #cc0000;
-    padding: 10px;
-  }
+  background-color: gray;
+  font-size: 130%;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  /* 将导航菜单设置为 Flexbox */
+  justify-content: space-around;
+  /* 子元素均匀分布 */
+  align-items: center;
+  /* 垂直居中对齐子元素 */
+  width: 100%;
+  /* 确保导航栏占据整个宽度 */
+  margin-bottom: 20px;
+  /* 为导航栏和下面的内容添加间距 */
+  padding: 10px;
+  /* 添加内边距，增加导航栏的高度 */
+  background-color: #f0f0f0;
+  /* 可选：设置导航栏背景色 */
+}  
+/* 父容器样式 */
+.container {
+  width: 20%;
+  height: 200px;
+  background-color: #f0f0f0;
+  border: 5px solid #ccc;
+  position: relative; /* 设置相对定位，为子元素的绝对定位提供参考 */
+  margin: auto;
+  padding: 150px;
+}
+
+/* 相对定位元素 */
+.relative-box {
+  position: relative; /* 相对定位 */
+  top: 20px; /* 相对于元素本身向下偏移 20px */
+  left: 20px; /* 相对于元素本身向右偏移 20px */
+  width: 100px;
+  height: 100px;
+  background-color: #a0d2eb;
+  border: 1px solid #0077aa;
+  padding: 10px;
+}
+
+/* 绝对定位元素 */
+.absolute-box {
+  position: absolute; /* 绝对定位 */
+  top: 40px; /* 相对于最近的已定位父元素（container）的顶部偏移 40px */
+  right: 20px; /* 相对于最近的已定位父元素的右边偏移 20px */
+  width: 80px;
+  height: 80px;
+  background-color: #f08080;
+  border: 1px solid #cc0000;
+  padding: 10px;
+}
