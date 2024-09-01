@@ -30,21 +30,30 @@ p {
 }
 
 #p1 {
+  width: 22%;
   background-color: #A52A2A;
   margin: auto;
   clear: left; 
 }
 
 #p2 {
+  width: 22%;
   background-color: #DEB887;
   margin: auto;
   clear: center;
  }
 
 #p3 {
+  width: 22%;
   background-color: #DE008a;
   margin: auto;
-  clear: right;
+  clear: center;
+  }
+ #p4 {
+   width: 22%;
+  background-color: #DE3e8a;
+  margin: auto;
+  clear: center;
   }
 section {
 top:40px;
