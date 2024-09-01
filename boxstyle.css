@@ -2,7 +2,6 @@
         box-sizing: border-box;
         margin: 0;
         padding: 0;
-        box-align: center;
     }
 
     #box {
@@ -13,6 +12,7 @@
         height: 100px;
         margin-top: 50px;
         overflow: auto;
+        box-align: center;
     }
 
     #content {
