@@ -4,6 +4,22 @@ body {
   text-align: center;
 }
 
+.navbar {
+  display: flex;
+  /* 将导航菜单设置为 Flexbox */
+  justify-content: space-around;
+  /* 子元素均匀分布 */
+}
+
+.button-group {
+  display: flex;
+  /* 将按钮组设置为 Flexbox */
+  gap: 10px;
+  /* 按钮之间的间距 */
+  justify-content: space-around;
+  /* 子元素均匀分布 */
+}
+
 p {
   background-color: yellow;
   color: red;
@@ -18,13 +34,22 @@ ol {
   text-align: left;
 }
 
+.container {
+  display: inline-flex;
+  /* 使用 Flexbox 布局 * inline-flex 并排相连/ 
+  justify-content: center; /* 水平居中对齐 */
+  gap: 0px;
+  /* 添加间距，间隔20px */
+}
+
 #box {
   background-color: blue;
   padding: 10px 20px 30px 40px;
-  border: 5px solid black;
+  border: 5px solid yellow;
   width: 500px;
   height: 120px;
-  margin: 50px auto; /* 水平居中 */
+  margin: auto;
+  /* 水平居中 */
   overflow: auto;
   display: block;
 }
