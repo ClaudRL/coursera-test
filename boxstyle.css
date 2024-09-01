@@ -1,0 +1,15 @@
+body {
+    background-color: gray;
+  }
+  
+  #box {
+    background-color: blue;
+  }
+  #content {
+    background-color: #90EE90; /*green*/
+  }
+  
+  h2 {
+    margin-bottom: 30px;
+  }
+  
