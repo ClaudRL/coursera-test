@@ -41,16 +41,17 @@ p {
 #p3 {
   width: 31%;
   background-color: #DE008a;
+}
+  section {
+    top: 40px;
+    height: 20px;
+    padding: 40px;
+    clear: left;
+  }
 
-section {
-top:40px;
-height: 20px;
-padding: 40px;
-clear: left;
-}
-#foot1 {
-width: 100px;
-background-color: #1E208a;
-color: #ffff00;
-margin: auto;
-}
+  #foot1 {
+    width: 100px;
+    background-color: #1E208a;
+    color: #ffff00;
+    margin: auto;
+  }
