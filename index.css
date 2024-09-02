@@ -4,22 +4,40 @@ body {
   text-align: center;
 }
 
-.navbar {
-  display: flex;
-  /* 将导航菜单设置为 Flexbox */
-  justify-content: space-around;
-  /* 子元素均匀分布 */
-  align-items: center;
-  /* 垂直居中对齐子元素 */
-  width: 100%;
-  /* 确保导航栏占据整个宽度 */
-  margin-bottom: 20px;
-  /* 为导航栏和下面的内容添加间距 */
-  padding: 10px;
-  /* 添加内边距，增加导航栏的高度 */
-  background-color: #f0f0f0;
-  /* 可选：设置导航栏背景色 */
-}
+<nav class="navbar">
+    <div class="dropdown">
+        <a href="index.html" class="dropbtn">首页</a>
+        <div class="dropdown-content">
+            <a href="#">选项1</a>
+            <a href="#">选项2</a>
+            <a href="#">选项3</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <a href="html_css_test.html" class="dropbtn">HTML&CSS测试</a>
+        <div class="dropdown-content">
+            <a href="#">选项1</a>
+            <a href="#">选项2</a>
+            <a href="#">选项3</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <a href="element_positioning.html" class="dropbtn">元素定位</a>
+        <div class="dropdown-content">
+            <a href="#">选项1</a>
+            <a href="#">选项2</a>
+            <a href="#">选项3</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <a href="#" class="dropbtn">联系我们</a>
+        <div class="dropdown-content">
+            <a href="#">选项1</a>
+            <a href="#">选项2</a>
+            <a href="#">选项3</a>
+        </div>
+    </div>
+</nav>
 
 p {
   border: 4px solid black;
