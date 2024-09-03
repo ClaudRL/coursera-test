@@ -1,0 +1,131 @@
+body {
+  background-color: gray;
+  font-size: 130%;
+  text-align: center;
+}
+
+.navbar {
+  width: 80%;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.navbar a {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.445);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.dropdown {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  border-radius: 10px;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgba(255, 0, 0, 0.445);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#foot1 {
+  width: 100px;
+  background-color: #1E208a;
+  color: #ffff00;
+  margin: auto;
+}
+
+
+/********** Base styles **********/
+h1 {
+  margin-bottom: 15px;
+}
+
+p {
+  border: 1px solid black;
+  margin-bottom: 15px;
+}
+
+#p1 {
+  background-color: #A52A2A;
+  width: 300px;
+  height: 300px;
+}
+
+#p2 {
+  background-color: #DEB887;
+  width: 50px;
+  height: 50px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  #p1 {
+    width: 80%;
+  }
+
+  #p2 {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #p1 {
+    width: 50%;
+  }
+
+  #p2 {
+    width: 100px;
+    height: 100px;
+  }
+
+  body {
+    background-color: blue;
+  }
+}
