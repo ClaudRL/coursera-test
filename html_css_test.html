@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello GitHub Page</title>
     <link rel="stylesheet" href="html_css_test.css">
+    <link rel="stylesheet" href="navbar_home.css">
     <style>
         /*p { color: green; } 内部样式*/
         h1 {
@@ -17,12 +18,44 @@
 </head>
 
 <body>
-    <nav class="navbar_home">
-        <a href="index.html">Home</a>
-        <a href="html_css_test.html">HTML&CSS Test</a>
-        <a href="element_positioning.html">element Positioning</a>
-        <a href="#">Contact</a>
-    </nav>
+    <h1 style="color: red;">Hello Github</h1>
+  <nav class="navbar_home">
+      <div class="dropdown_home">
+          <button class="dropbtn_home">Home</button>
+          <div class="dropdown_home-content">
+              <a href="index.html">Home</a>
+              <a href="navbar_home.html">Nav Bar</a>
+              <a href="bootstrap/bootstrap.html">Bootstrap</a>
+              <a href="#">Model 3</a>
+          </div>
+      </div>
+      <div class="dropdown_home">
+          <button class="dropbtn_home">HTML&CSS Test</button>
+          <div class="dropdown_home-content">
+              <a href="html_css_test.html">HTML&CSS Test</a>
+              <a href="element_positioning.html">Element positioning</a>
+              <a href="media_queries.html">Media Queries</a>
+              <a href="responsive_design.html">Responsive Design</a>
+          </div>
+      </div>
+      <div class="dropdown_home">
+          <button class="dropbtn_home">JavaScript Test</button>
+          <div class="dropdown_home-content">
+              <a href="#">Temp1</a>
+              <a href="#">Temp2</a>
+              <a href="#">Temp3</a>
+          </div>
+      </div>
+      <div class="dropdown_home">
+          <button class="dropbtn_home">Contact Us</button>
+          <div class="dropdown_home-content">
+              <a href="#">Contact Us</a>
+              <a href="#">Temp1</a>
+              <a href="#">Temp2</a>
+              <a href="#">Temp3</a>
+          </div>
+      </div>
+  </nav>
     <div class="button-group">
         <button>Home</button>
         <button>Button 2</button>
