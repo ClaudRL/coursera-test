@@ -4,3 +4,8 @@ body {
     background-color: #61122f;
     font-family: 'Oxygen', sans-serif;
   }
+  #home {
+    color: #fff;
+    text-decoration: none;
+    float: right;
+  }
