@@ -7,7 +7,7 @@ body {
   #home {
     color: #fff;
     text-decoration: none;
-    float: right;
+    float: left;
   }
   /** HEADER **/
   #header-nav {
