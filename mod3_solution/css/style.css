@@ -2,26 +2,34 @@ body {
     font-size: 16px;
     color: #fff;
     background-color: #e1d9dc;
-    font-family: 'Oxygen', sans-serif;
-  }
-  
-  /** HEADER **/
-  #header-nav {
+    font-family: ';
+
+}
+
+/** HEADER **/
+#header-nav {
     background-color: gray;
     border-radius: 0;
-    border: 0;
-  }
-  .navbar-brand h1 { /* Restaurant name */
-    font-family: 'Lora', serif;
+    border: 2px solid black;
+}
+
+.navbar-brand h1 {
+    /* Restaurant name */
+    font-family: cursive;
     color: black;
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
     margin-top: 0;
-    margin-bottom: 0;
-    line-height: .75;
-  }
-  .navbar-brand a:hover, .navbar-brand a:focus {
+    margin-left: 3px;
+    margin-bottom: 5px;
+}
+
+.navbar-brand a {
     text-decoration: none;
-  }
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
