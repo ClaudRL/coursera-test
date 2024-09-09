@@ -16,10 +16,12 @@ body {
 .navbar-brand {
   position: fixed;
   top: 10px;
-  left: auto;
-}
+ }
 
 .navbar-brand h1 {
+  position: fixed;
+  top: 30px;
+  left: 50px;
   font-family: cursive;
   color: black;
   font-size: 1.5em;
@@ -67,20 +69,27 @@ h2 {
 
 
 #nav-list {
-  margin-top: 10px;
+  margin-top: 70px;
+  border: 4px solid black;
 }
 
 #nav-list a {
-  color: #381c95;
+  height: 58px;
+  color: black;
+  font-family: cursive;
   text-align: center;
+  border: 2px solid black;
+  font-size: 1.5em;
+  margin-bottom: -1px;
+  padding-bottom: 30px;
 }
 
 #nav-list a:hover {
-  background: #0a2605;
+  background: #3ac93a;
 }
 
 #nav-list a span {
-  font-size: 1.8em;
+  font-size: 6em;
 }
 
 
