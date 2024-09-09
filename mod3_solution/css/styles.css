@@ -42,16 +42,7 @@ body {
   text-decoration: none;
 }
 
-h2 {
-  color: black;
-  font-family: cursive;
-  margin-bottom: 15px;
-  font-size: 2em;
-  font-weight: bold;
-  border: none;
-  padding-top: 20px;
-  padding-bottom: 40px;
-}
+
 
 .navbar-toggle {
   position: absolute;
@@ -67,7 +58,6 @@ h2 {
   height: 4px;
   width: 100%;
 }
-
 
 #nav-list {
   margin-top: 74px;
@@ -87,18 +77,43 @@ h2 {
   border: 2px solid black;
 
 }
-
-
-
-
 .navbar-header button.navbar-toggle,
 .navbar-header .icon-bar {
   border: 1px solid #61122f;
-  color: #61122f;
+  
 }
 
 .navbar-header button.navbar-toggle {
   clear: both;
 }
 
-e
+
+h2 {
+  color: black;
+  font-family: cursive;
+  margin-bottom: 15px;
+  font-size: 2em;
+  font-weight: bold;
+  border: none;
+}
+
+.container-fluid {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1em;
+  font-family: cursive;
+  color: black;
+} 
+.menu-item {
+  background-color: gray;
+  padding: 10px;
+  margin: 10px;
+}
+.menu-item p {
+  text-align: left;
+}
+
+/* 自定义类，用于在下拉菜单展开时调整 .container 的 margin-top */
+.margin-top-70 {
+  margin-top: 170px;
+}
