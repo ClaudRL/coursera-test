@@ -41,6 +41,8 @@ body {
 .icon-bar {
   background-color: GRAY; /* 这里设置你想要的颜色 */
   color: black;
+  width: 22px; /* 设置宽度 */
+  height: 22px; /* 设置高度，使其与宽度相等 */
 }
 h2 {
   color: black;
