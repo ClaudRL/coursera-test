@@ -11,15 +11,14 @@ body {
     background-color: gray;
     border-radius: 0;
     border: 4px solid black;
-    height: 80px;
+   height:80px;
 }
 
 .navbar-brand {
-    position: absolute;
-    left: 30px;
-    top: 10px;
+  position: absolute;
+  left: 30px;
+  top: 10px;
 }
-
 .navbar-brand h1 {
     /* Restaurant name */
     font-family: cursive;
@@ -55,11 +54,11 @@ h2 {
 }
 
 @media (max-width: 767px) {
-    .navbar-brand {
-        padding: 5px 15px;
-    }
-
-    .navbar-brand h1 {
-        font-size: 1.2em;
-    }
+  .navbar-brand {
+    padding: 5px 15px;
+  }
+  
+  .navbar-brand h1 {
+    font-size: 1.2em;
+  }
 }
