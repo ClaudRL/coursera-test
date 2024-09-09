@@ -2,8 +2,6 @@ body {
   font-size: 16px;
   color: #fff;
   background-color: #e1d9dc;
-  font-family: ';
-
 }
 
 /** HEADER **/
@@ -15,18 +13,20 @@ body {
 }
 
 .navbar-brand {
-  position: absolute;
- }
- 
- .navbar-brand h1 {
+  position: fixed;
+  top: 10px;
+  left: auto;
+}
+
+.navbar-brand h1 {
   /* Restaurant name */
   font-family: cursive;
   color: black;
   font-size: 1.5em;
   font-weight: bold;
   margin-top: 0;
-  margin-left: 0px;
   margin-bottom: 5px;
+  margin-left: 10px;
 
 }
 
@@ -38,12 +38,7 @@ body {
 .navbar-brand a:focus {
   text-decoration: none;
 }
-.icon-bar {
-  background-color: GRAY; /* 这里设置你想要的颜色 */
-  color: black;
-  width: 22px; /* 设置宽度 */
-  height: 22px; /* 设置高度，使其与宽度相等 */
-}
+
 h2 {
   color: black;
   font-family: cursive;
@@ -55,10 +50,31 @@ h2 {
   padding-bottom: 40px;
 }
 
-
 .navbar-toggle {
   position: absolute;
+  top: 5px;
   right: 15px;
-  top: 50%;
-  transform: translateY(-50%);
+  height: 50px;
+  width: 50px;
+  border-radius: 4px;
 }
+
+
+.navbar-toggle .icon-bar {
+  height: 4px;
+  width: 100%;
+  }
+
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #951C49;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
