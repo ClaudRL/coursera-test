@@ -10,7 +10,7 @@ body {
 #header-nav {
     background-color: gray;
     border-radius: 0;
-    border: 2px solid black;
+    border: 4px solid black;
 }
 
 .navbar-brand h1 {
@@ -18,11 +18,11 @@ body {
     font-family: cursive;
     color: black;
     font-size: 1.5em;
-    text-transform: uppercase;
     font-weight: bold;
     margin-top: 0;
-    margin-left: 3px;
+    margin-left: 0px;
     margin-bottom: 5px;
+
 }
 
 .navbar-brand a {
@@ -32,4 +32,17 @@ body {
 .navbar-brand a:hover,
 .navbar-brand a:focus {
     text-decoration: none;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    margin-bottom: 15px;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    border: none;
+    padding-top: 20px;
+    padding-down: 40px;
 }
