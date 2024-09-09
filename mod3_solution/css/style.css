@@ -50,15 +50,5 @@ h2 {
     position: relative;
     border: none;
     padding-top: 20px;
-    padding-down: 40px;
-}
-
-@media (max-width: 767px) {
-  .navbar-brand {
-    padding: 5px 15px;
-  }
-  
-  .navbar-brand h1 {
-    font-size: 1.2em;
-  }
+    padding-bottom: 40px;
 }
