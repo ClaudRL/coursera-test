@@ -15,34 +15,43 @@
 <body>
   <header>
     <nav id="header-nav" class="navbar navbar-default">
-      <div class="container-fluid">
+      <div class="container">
         <div class="navbar-header">
           <div class="navbar-brand">
             <a href="index.html">
               <h1>Food, LLC</h1>
             </a>
           </div>
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
         </div><!-- .collapse .navbar-collapse -->
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+           <li>
+             <a href="#">
+               <span class="glyphicon glyphicon-cutlery"></span><br class="visible-xs"> Chicken</a>
+           </li>
+           <li>
+             <a href="#">
+               <span class="glyphicon glyphicon-info-sign"></span><br class="visible-xs"> Beef</a>
+           </li>
+           <li>
+             <a href="#">
+               <span class="glyphicon glyphicon-certificate"></span><br class="visible-xs"> Sushi</a>
+           </li>
+          </ul>
+
+
       </div>
     </nav>
   </header>
-  <h2 class="text-center">Our Menu</h2>
-  <div class="row">
-    <div class="col-xs-12">
-      <div class="menu-item" style="height: 1000px; background-color: #DDD;">
-        <!-- 这里可以添加菜单内容 -->
-      </div>
-    </div>
-  </div>
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-3.7.1.min.js"></script>
+   <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
